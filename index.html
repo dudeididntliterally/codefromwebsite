@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Mud Fury Multiplayer</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/style.css" rel="stylesheet">
+    <link href="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/style1.css" rel="stylesheet">
+    <link href="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/gamebreak.css" rel="stylesheet">
+    <script src="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/lib.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/browser_detector.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/sound_enabler.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/metrika.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/gamebreak.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/game.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/UnityProgress.js"></script>
+    <script src="https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/UnityLoader.js"></script>
+  <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://raw.githubusercontent.com/dudeididntliterally/codefromwebsite/main/MudFuryMultiplayer_V4_64bit.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script><link rel="canonical" href="https://www.y8.com/games/mud_fury">
+</head>
+  <body>
+    <div id="container" class="container webgl-content">
+      <div id="gameContainer" style="width: 800px; height: 600px"></div>
+      <div class="footer">
+        <div class="unity disable"></div>
+        <div class="webgl enable"></div>
+        <h1 class="game-name">Mud Fury Multiplayer</h1>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)">Maximize</div>
+      </div>
+    </div>
+  </body>
+</html>
