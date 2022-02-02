@@ -1,0 +1,13 @@
+{
+"companyName": "Studd Games",
+"productName": "Mud Fury Multiplayer",
+"dataUrl": "https://github.com/dudeididntliterally/imagesforgame/blob/main/MudFuryMultiplayer_V4_64bit.data.unityweb?raw=true",
+"wasmCodeUrl": "https://github.com/dudeididntliterally/imagesforgame/blob/main/MudFuryMultiplayer_V4_64bit.wasm.code.unityweb?raw=true",
+"wasmFrameworkUrl": "https://github.com/dudeididntliterally/imagesforgame/blob/main/MudFuryMultiplayer_V4_64bit.wasm.framework.unityweb?raw=true",
+"TOTAL_MEMORY": 536870912,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
